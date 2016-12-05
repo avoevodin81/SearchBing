@@ -27,7 +27,7 @@ public class BingTest {
         wait.until(ExpectedConditions.presenceOfElementLocated(By.className("sb_pagN")));
 
         //print to console the title of the page
-        System.out.println(driver.getTitle());
+        System.out.println("Page title is: " + driver.getTitle());
 
         //create the list of the search results by class name
         List<WebElement> titles = driver.findElements(By.className("b_algo"));
