@@ -30,7 +30,7 @@ public class BingTest {
         System.out.println("Page title is: " + driver.getTitle());
 
         //create the list of the search results by class name
-        List<WebElement> titles = driver.findElements(By.className("b_algo"));
+        List<WebElement> titles = driver.findElements(By.className("b_title"));
 
         //print to console the titles of the search results
         for (WebElement element : titles) {
